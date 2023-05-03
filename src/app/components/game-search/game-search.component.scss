@@ -1,0 +1,51 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button {
+      height: 54px;
+      margin-left: 5px;
+      margin-top: -8px;
+    }
+    mat-form-field {
+        width: 50%;
+        margin-top: 14px;
+    }
+}
+
+.searched-games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  
+  .game-card {
+    width: 145px;
+    font-size: .75em;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 16px;
+    cursor: pointer;
+  
+    img {
+      width: 100%;
+      max-height: 100px;
+      margin: auto;
+    }
+  }
+  
+  .card-title-container {
+    display: flex;
+    align-items: center;
+  
+    .mat-card-title {
+      font-size: 1em;
+      line-height: normal;
+    }
+  }
+  
+  mat-card-content {
+    font-size: .75em;
+    line-height: normal;
+  }
